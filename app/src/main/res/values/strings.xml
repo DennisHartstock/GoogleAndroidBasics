@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Google Android Basics</string>
-    <string name="congratulation">Happy Birthday!</string>
+    <string name="congratulation">You must use a build variant that includes debuggable true in the build configuration.
+        Usually, you can just select the default "debug" variant that\'s included in every Android Studio project
+        (even though it\'s not visible in the build.gradle file). But if you define new build types that should be debuggable,
+        you must add `debuggable true` to the build type:</string>
 </resources>

@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".HappyBirthday">
 
-    <!--<TextView
+    <TextView
         android:id="@+id/TextViewCongratulation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#124562"
+        android:text="@string/congratulation"
         android:textColor="#fff"
-        android:textSize="14sp"
-        android:text="@string/congratulation" />-->
+        android:textSize="14sp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="400dp"
         android:layout_height="400dp"
+        android:contentDescription="@string/image_burning"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/burning"
-        android:contentDescription="@string/image_burning" />
+        app:srcCompat="@drawable/burning" />
 </LinearLayout>

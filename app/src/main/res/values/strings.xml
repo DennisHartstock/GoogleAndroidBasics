@@ -4,4 +4,5 @@
         Usually, you can just select the default "debug" variant that\'s included in every Android Studio project
         (even though it\'s not visible in the build.gradle file). But if you define new build types that should be debuggable,
         you must add `debuggable true` to the build type:</string>
+    <string name="image_burning">burning</string>
 </resources>

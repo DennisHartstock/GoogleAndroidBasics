@@ -8,14 +8,34 @@
     tools:context=".HappyBirthday">
 
     <TextView
-        android:id="@+id/TextViewCongratulation"
+        android:id="@+id/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#124562"
-        android:text="@string/congratulation"
+        android:text="@string/textView0"
         android:textColor="#fff"
-        android:textStyle="italic"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#124562"
+        android:text="@string/textView1"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#124562"
+        android:text="@string/textView2"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textStyle="italic" />
 
     <ImageView
         android:id="@+id/imageView"

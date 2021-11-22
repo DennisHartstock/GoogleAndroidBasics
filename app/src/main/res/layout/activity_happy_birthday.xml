@@ -7,41 +7,25 @@
     android:orientation="vertical"
     tools:context=".HappyBirthday">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/image_burning"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/burning" />
+
     <TextView
         android:id="@+id/TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0"
         android:background="#124562"
         android:text="@string/textView0"
         android:textColor="#fff"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/TextView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#124562"
-        android:text="@string/textView1"
-        android:textColor="#fff"
-        android:textSize="14sp"
-        android:textStyle="italic" />
 
-    <TextView
-        android:id="@+id/TextView2"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:background="#124562"
-        android:text="@string/textView2"
-        android:textColor="#fff"
-        android:textSize="14sp"
-        android:textStyle="italic" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:contentDescription="@string/image_burning"
-        android:scaleType="centerInside"
-        app:srcCompat="@drawable/burning" />
 </LinearLayout>

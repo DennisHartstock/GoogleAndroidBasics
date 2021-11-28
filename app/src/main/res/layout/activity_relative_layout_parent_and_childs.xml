@@ -26,6 +26,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:textAppearanceLarge"
+        android:layout_centerInParent="true"
         android:text="@string/to_you" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/burning"
+        android:contentDescription="@string/burning" />
+
+    <TextView
+        android:id="@+id/first_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pebble_beach"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_toEndOf="@id/image" />
+
+    <TextView
+        android:id="@+id/second_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/california"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_toEndOf="@id/image"
+        android:layout_below="@id/first_text_view" />
+
+    <TextView
+        android:id="@+id/third_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_10_miles_away"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_below="@id/second_text_view"
+        android:layout_toEndOf="@id/image" />
 
 </RelativeLayout>

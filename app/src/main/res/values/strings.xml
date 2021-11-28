@@ -8,4 +8,7 @@
     <string name="textView0">Назад в прошлое, у которого было светлое будущее!</string>
     <string name="textView1">textViewOne</string>
     <string name="textView2">textViewTwo</string>
+    <string name="happy">Happy</string>
+    <string name="birthday">Birthday</string>
+    <string name="to_you">To You</string>
 </resources>

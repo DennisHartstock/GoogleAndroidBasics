@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleAndroidBasics">
         <activity
+            android:name=".JustJava"
+            android:exported="true" />
+        <activity
             android:name=".HappyBirthday2"
             android:exported="true" />
         <activity

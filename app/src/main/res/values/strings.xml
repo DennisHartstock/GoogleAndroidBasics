@@ -21,4 +21,7 @@
     <string name="happy_birthday_vita">Happy Birthday, Vita!</string>
     <string name="from_papa">From Papa</string>
     <string name="androidparty">androidParty</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="order">ORDER</string>
+    <string name="value">0</string>
 </resources>

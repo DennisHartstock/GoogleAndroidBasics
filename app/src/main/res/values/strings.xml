@@ -24,4 +24,7 @@
     <string name="quantity">QUANTITY</string>
     <string name="order">ORDER</string>
     <string name="value">0</string>
+    <string name="price">PRICE</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
 </resources>

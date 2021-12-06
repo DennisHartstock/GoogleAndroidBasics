@@ -21,6 +21,7 @@ import java.text.NumberFormat;
  * This app displays an order form to order coffee.
  */
 public class JustJava extends AppCompatActivity {
+    private int quantity = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +29,23 @@ public class JustJava extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void increment(View view) {
+        quantity++;
+        display(quantity);
+    }
+
+    public void decrement(View view) {
+        if (quantity < 0)
+            quantity = 0;
+        else
+            quantity--;
+        display(quantity);
+    }
+
     /**
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view) {
-        int quantity = 2;
         display(quantity);
         displayPrice(quantity * 5);
     }
@@ -52,4 +65,5 @@ public class JustJava extends AppCompatActivity {
         TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
         priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
     }
+
 }

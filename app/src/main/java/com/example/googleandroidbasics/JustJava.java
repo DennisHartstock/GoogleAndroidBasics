@@ -54,7 +54,7 @@ public class JustJava extends AppCompatActivity {
      * This method displays the given quantity value on the screen.
      */
     private void display(int number) {
-        TextView quantityTextView = findViewById(R.id.quantity_text_view);
+        TextView quantityTextView = findViewById(R.id.quantityNumber_textView);
         quantityTextView.setText("" + number);
     }
 
@@ -62,7 +62,7 @@ public class JustJava extends AppCompatActivity {
      * This method displays the given price on the screen.
      */
     private void displayPrice(int number) {
-        TextView priceTextView = findViewById(R.id.price_text_view);
+        TextView priceTextView = findViewById(R.id.priceNumber_textView);
         priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
     }
 }
